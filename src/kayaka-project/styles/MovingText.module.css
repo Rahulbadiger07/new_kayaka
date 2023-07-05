@@ -1,0 +1,31 @@
+.movingtextcontainer {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    /* border: solid black; */
+  }
+  
+  .movingtext {
+    position: absolute;
+    bottom: 0;
+    animation: moveText 5s linear  infinite;
+    animation-play-state: running;
+    bottom: 0;
+
+  }
+
+  .movingtext:hover {
+    animation-play-state: paused;
+  }
+
+  
+  @keyframes moveText {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+      bottom: 100%;
+    }
+  }
+  
