@@ -7,6 +7,10 @@ import Cards from './kayaka-project/components/Cards';
 
 function App() {
   return (
+    // <div className="App">
+    // <RegisterForm/>
+    // <Cards/>
+    // </div>
     <div className="App">
     <RegisterForm/>
     <Cards/>
