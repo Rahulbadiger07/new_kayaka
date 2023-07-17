@@ -183,7 +183,7 @@ const Gallery = ({ data, role,onClick }) => {
             onClick={() => handleClick(data.path)}
           />
 
-          <CardActions sx={{bgcolor:"transparent", display:"flex",alignItems:"center", justifyContent:"center" ,"&:hover": {bgcolor:"white",color: "red" }}}>
+          <CardActions sx={{bgcolor:"transparent", display:"flex",alignItems:"center", justifyContent:"center" ,"&:hover": {bgcolor:"white" }}}>
         
         <Typography
               variant="h6"
